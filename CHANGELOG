@@ -1,0 +1,11 @@
+0.1.0
+
++ Remove the sha1 digest of the password hash.
++ Store work factors in the hash string.
+
+0.0.9
+
+Works! But don't use this version
+It makes a sha1 digest which opens up the possibility
+that there will be hash collisions. Also it doesn't
+return the work factor which you should store.

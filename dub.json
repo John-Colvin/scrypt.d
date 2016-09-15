@@ -1,0 +1,39 @@
+{
+	"authors": [
+		"Isak Andersson"
+	],
+	"configurations": [
+		{
+			"name": "application",
+			"targetType": "executable",
+			"mainSourceFile": "source/app.d"
+		},
+		{
+			"excludedSourceFiles": [
+				"source/app.d"
+			],
+			"name": "library",
+			"targetType": "library"
+		}
+	],
+	"importPaths": [
+		"source/"
+	],
+	"name": "scrypt-d",
+	"version": "~master",
+	"license": "Zlib",
+	"copyright": "Copyright 2013 Isak Andersson (BitPuffin@lavabit.com)",
+	"description": "A D library for using the scrypt encryption function",
+	"homepage": "http://github.com/BitPuffin/scrypt.d.git",
+	"sourcePaths": [
+		"source/"
+	],
+	"sourceFiles": [
+		"/fastssd/neo/panels2/libs/libcperciva_aesni.a",
+		"/fastssd/neo/panels2/libs/libscrypt_sse2.a",
+		"/fastssd/neo/panels2/libs/libtarsnap.a",
+		"/fastssd/neo/panels2/libs/libtarsnap_sse2.a",
+		"/fastssd/neo/panels2/libs/libtarsnap_aesni.a",
+	],
+
+}
