@@ -19,7 +19,7 @@
 	"importPaths": [
 		"source/"
 	],
-	"name": "scrypt-d",
+	"name": "kaleidic-scrypt-d",
 	"version": "~master",
 	"license": "Zlib",
 	"copyright": "Copyright 2013 Isak Andersson (BitPuffin@lavabit.com)",
