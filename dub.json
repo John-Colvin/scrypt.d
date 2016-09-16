@@ -29,11 +29,11 @@
 		"source/"
 	],
 	"sourceFiles": [
-		"/fastssd/neo/panels2/libs/libcperciva_aesni.a",
-		"/fastssd/neo/panels2/libs/libscrypt_sse2.a",
-		"/fastssd/neo/panels2/libs/libtarsnap.a",
-		"/fastssd/neo/panels2/libs/libtarsnap_sse2.a",
-		"/fastssd/neo/panels2/libs/libtarsnap_aesni.a",
+		"../../libs/libcperciva_aesni.a",
+		"../../libs/libscrypt_sse2.a",
+		"../../libs/libtarsnap.a",
+		"../../libs/libtarsnap_sse2.a",
+		"../../libs/libtarsnap_aesni.a",
 	],
 
 }
