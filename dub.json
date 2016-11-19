@@ -23,9 +23,9 @@
 	"homepage": "http://github.com/BitPuffin/scrypt.d.git",
 	"sourceFiles": [
 		"$KAL_EXT_LIB/libcperciva_aesni.a",
-		"$KAL_EXT_LIB/libs/libscrypt_sse2.a",
-		"$KAL_EXT_LIB/libs/libtarsnap.a",
-		"$KAL_EXT_LIB/libs/libtarsnap_sse2.a",
-		"$KAL_EXT_LIB/libs/libtarsnap_aesni.a"
+		"$KAL_EXT_LIB/libscrypt_sse2.a",
+		"$KAL_EXT_LIB/libtarsnap.a",
+		"$KAL_EXT_LIB/libtarsnap_sse2.a",
+		"$KAL_EXT_LIB/libtarsnap_aesni.a"
 	]
 }
