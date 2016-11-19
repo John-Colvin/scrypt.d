@@ -4,36 +4,28 @@
 	],
 	"configurations": [
 		{
-			"name": "application",
-			"targetType": "executable",
-			"mainSourceFile": "source/app.d"
-		},
-		{
 			"excludedSourceFiles": [
 				"source/app.d"
 			],
 			"name": "library",
 			"targetType": "library"
+		},
+		{
+			"name": "application",
+			"targetType": "executable",
+			"mainSourceFile": "source/app.d"
 		}
 	],
-	"importPaths": [
-		"source/"
-	],
 	"name": "kaleidic-scrypt-d",
-	"version": "~master",
 	"license": "Zlib",
 	"copyright": "Copyright 2013 Isak Andersson (BitPuffin@lavabit.com)",
 	"description": "A D library for using the scrypt encryption function",
 	"homepage": "http://github.com/BitPuffin/scrypt.d.git",
-	"sourcePaths": [
-		"source/"
-	],
 	"sourceFiles": [
-		"../../libs/libcperciva_aesni.a",
-		"../../libs/libscrypt_sse2.a",
-		"../../libs/libtarsnap.a",
-		"../../libs/libtarsnap_sse2.a",
-		"../../libs/libtarsnap_aesni.a",
-	],
-
+		"$KAL_EXT_LIB/libcperciva_aesni.a",
+		"$KAL_EXT_LIB/libs/libscrypt_sse2.a",
+		"$KAL_EXT_LIB/libs/libtarsnap.a",
+		"$KAL_EXT_LIB/libs/libtarsnap_sse2.a",
+		"$KAL_EXT_LIB/libs/libtarsnap_aesni.a"
+	]
 }
