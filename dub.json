@@ -21,11 +21,21 @@
 	"copyright": "Copyright 2013 Isak Andersson (BitPuffin@lavabit.com)",
 	"description": "A D library for using the scrypt encryption function",
 	"homepage": "http://github.com/BitPuffin/scrypt.d.git",
-	"sourceFiles": [
+	"sourceFiles-linux": [
 		"$KAL_EXT_LIB/libcperciva_aesni.a",
 		"$KAL_EXT_LIB/libscrypt_sse2.a",
 		"$KAL_EXT_LIB/libtarsnap.a",
 		"$KAL_EXT_LIB/libtarsnap_sse2.a",
 		"$KAL_EXT_LIB/libtarsnap_aesni.a"
+	],
+	"libs": [
+		"cperciva_aesni",
+		"scrypt_sse2",
+		"tarsnap",
+		"tarsnap_sse2",
+		"tarsnap_aesni"
+	],
+	"lflags": [
+		"-L$KAL_EXT_LIB"
 	]
 }
